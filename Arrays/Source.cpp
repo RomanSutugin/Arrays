@@ -1,4 +1,4 @@
-//Arrays
+ï»¿//Arrays
 #include <iostream>
 using namespace std;
 //#define TASK_1_2
@@ -28,12 +28,12 @@ void main()
 #ifdef TASK_1_2
 	const int SIZE = 5;
 	int arr[SIZE];
-	cout << "Ââåäèòå " << SIZE << " ýëåìåíòîâ ìàññèâà" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << SIZE << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl;
 	for (int i = 0; i < SIZE; i++)
 	{
-		cout << "Ýëåìåíò " << i << " ìàññèâà: "; cin >> arr[i];
+		cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i << " Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> arr[i];
 	}
-	cout << "Ââåäåííûå ýëåìåíòû ìàññèâà ïî ïîðÿäêó: "; //Çàäà÷à 2 
+	cout << "Ð’Ð²ÐµÐ´ÐµÐ½Ð½Ñ‹Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð¿Ð¾ Ð¿Ð¾Ñ€ÑÐ´ÐºÑƒ: "; //Ð—Ð°Ð´Ð°Ñ‡Ð° 2 
 	for (int i = 0; i < SIZE; i++)
 	{
 		cout << arr[i] << "\t";
@@ -44,12 +44,12 @@ void main()
 #ifdef TASK_3
 	const int SIZE = 5;
 	int arr[SIZE];
-	cout << "Ââåäèòå " << SIZE << " ýëåìåíòîâ ìàññèâà" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << SIZE << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl;
 	for (int i = 0; i < SIZE; i++)
 	{
-		cout << "Ýëåìåíò " << i << " ìàññèâà: "; cin >> arr[i];
+		cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i << " Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> arr[i];
 	}
-	cout << "Ââåäåííûå ýëåìåíòû ìàññèâà â îáðàòíîì ïîðÿäêå: ";
+	cout << "Ð’Ð²ÐµÐ´ÐµÐ½Ð½Ñ‹Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð² Ð¾Ð±Ñ€Ð°Ñ‚Ð½Ð¾Ð¼ Ð¿Ð¾Ñ€ÑÐ´ÐºÐµ: ";
 	for (int i = SIZE-1; i >= 0; i--)
 	{
 		cout << arr[i] << "\t";
@@ -60,28 +60,28 @@ void main()
 #ifdef TASK_4_5
 	const int SIZE = 5;
 	int arr[SIZE];
-	cout << "Ââåäèòå " << SIZE << " ýëåìåíòîâ ìàññèâà" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << SIZE << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl;
 	for (int i = 0; i < SIZE; i++)
 	{
-		cout << "Ýëåìåíò " << i << " ìàññèâà: "; cin >> arr[i];
+		cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i << " Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> arr[i];
 	}
 	int sum = 0;
 	for (int i = 0; i < SIZE; i++)
 	{
 		sum += arr[i];
 	}
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << sum << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << sum << endl;
 	int arithmetic_mean = sum/SIZE;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << arithmetic_mean << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << arithmetic_mean << endl;//Ð—Ð°Ð´Ð°Ñ‡Ð° 5
 #endif // TASK_4_5
 
 #ifdef TASK_6
 	const int SIZE = 5;
 	int arr[SIZE];
-	cout << "Ââåäèòå " << SIZE << " ýëåìåíòîâ ìàññèâà" << endl;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ " << SIZE << " ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°" << endl;
 	for (int i = 0; i < SIZE; i++)
 	{
-		cout << "Ýëåìåíò " << i << " ìàññèâà: "; cin >> arr[i];
+		cout << "Ð­Ð»ÐµÐ¼ÐµÐ½Ñ‚ " << i << " Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> arr[i];
 	}
 	int max = arr[0];
 	for (int i = 0; i < SIZE; i++)
@@ -91,7 +91,7 @@ void main()
 			max = arr[i];
 		}
 	}
-	cout << "Ìàêñèìàëüíûé ýëåìåíò ìàññèâà: " << max << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << max << endl;
 	int min = arr[0];
 	for (int i = 0; i < SIZE; i++)
 	{
@@ -100,7 +100,7 @@ void main()
 			min = arr[i];
 		}
 	}
-	cout << "Ìèíèìàëüíûé ýëåìåíò ìàññèâà: " << min << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ñ‹Ð¹ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚ Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << min << endl;
 #endif // TASK_6
 
 	
