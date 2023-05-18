@@ -1,4 +1,4 @@
-// Shift
+ï»¿// Shift
 #include <iostream>
 using namespace std;
 //#define LEFT
@@ -17,7 +17,7 @@ void main()
 
 #ifdef LEFT
 	int number_of_shifts;
-	cout << "Ââåäèòå ÷èñëî, íà êîòîðîå íóæíî ñäâèíóòü ðÿä: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð½Ð° ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ðµ Ð½ÑƒÐ¶Ð½Ð¾ ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ñ€ÑÐ´: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int a = arr[0];
@@ -35,7 +35,7 @@ void main()
 
 #ifdef RIGHT
 	int number_of_shifts;
-	cout << "Ââåäèòå ÷èñëî, íà êîòîðîå íóæíî ñäâèíóòü ðÿä: "; cin >> number_of_shifts;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð½Ð° ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ðµ Ð½ÑƒÐ¶Ð½Ð¾ ÑÐ´Ð²Ð¸Ð½ÑƒÑ‚ÑŒ Ñ€ÑÐ´: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int a = arr[n - 1];
