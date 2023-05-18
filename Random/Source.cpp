@@ -30,6 +30,17 @@ void main()
 
 	for (int i = 0; i < n; i++)
 	{
+		for (int j=n-1; j>i; j--)
+			if (arr[i] > arr[j])
+			{
+				int a = arr[i];
+				arr[i] = arr[j];
+				arr[j] = a;
+			}
+	}
+	
+	for (int i = 0; i < n; i++)
+	{
 		cout << arr[i] << tab;
 	}
 	cout << endl;
