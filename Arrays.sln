@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Shift", "Shift\Shift.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Random", "Random\Random.vcxproj", "{E8048E9C-250A-48D4-AE7F-2B114E4EA3F6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Numerics", "Numerics\Numerics.vcxproj", "{69FAE362-A487-4143-B281-78B688EF7804}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{E8048E9C-250A-48D4-AE7F-2B114E4EA3F6}.Release|x64.Build.0 = Release|x64
 		{E8048E9C-250A-48D4-AE7F-2B114E4EA3F6}.Release|x86.ActiveCfg = Release|Win32
 		{E8048E9C-250A-48D4-AE7F-2B114E4EA3F6}.Release|x86.Build.0 = Release|Win32
+		{69FAE362-A487-4143-B281-78B688EF7804}.Debug|x64.ActiveCfg = Debug|x64
+		{69FAE362-A487-4143-B281-78B688EF7804}.Debug|x64.Build.0 = Debug|x64
+		{69FAE362-A487-4143-B281-78B688EF7804}.Debug|x86.ActiveCfg = Debug|Win32
+		{69FAE362-A487-4143-B281-78B688EF7804}.Debug|x86.Build.0 = Debug|Win32
+		{69FAE362-A487-4143-B281-78B688EF7804}.Release|x64.ActiveCfg = Release|x64
+		{69FAE362-A487-4143-B281-78B688EF7804}.Release|x64.Build.0 = Release|x64
+		{69FAE362-A487-4143-B281-78B688EF7804}.Release|x86.ActiveCfg = Release|Win32
+		{69FAE362-A487-4143-B281-78B688EF7804}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
