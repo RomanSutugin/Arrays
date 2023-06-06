@@ -84,5 +84,25 @@ void main()
 		cout << endl;
 	}
 
-
+	cout << "Умножение матриц 1 * 2: " << endl;
+	int multi[ROWS][COLS];
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			multi[i][j] = 0;
+			for (int k = 0; k < COLS; k++)
+			{
+				multi[i][j] += arr[i][k] * arr_2[k][j];
+			}
+		}
+	}
+	for (int i = 0; i < ROWS; i++)
+	{
+		for (int j = 0; j < COLS; j++)
+		{
+			cout << multi[i][j] << "\t";
+		}
+		cout << endl;
+	}
 }
